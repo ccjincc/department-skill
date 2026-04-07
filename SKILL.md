@@ -49,6 +49,9 @@ allowed-tools: Read, Bash
 | 读取代码、PR 评论、Issue、Review | `Read` 工具 |
 | 解析飞书导出 JSON / TXT | `Bash` -> `python3 ${CLAUDE_SKILL_DIR}/tools/feishu_parser.py` |
 | 解析邮件 `.eml` / `.mbox` | `Bash` -> `python3 ${CLAUDE_SKILL_DIR}/tools/email_parser.py` |
+| 解析通用聊天导出 txt / md | `Bash` -> `python3 ${CLAUDE_SKILL_DIR}/tools/generic_chat_parser.py` |
+| 解析微信导出 txt / html / csv | `Bash` -> `python3 ${CLAUDE_SKILL_DIR}/tools/wechat_parser.py` |
+| 解析 QQ 导出 txt / mht | `Bash` -> `python3 ${CLAUDE_SKILL_DIR}/tools/qq_parser.py` |
 | 自动采集飞书材料 | `Bash` -> `python3 ${CLAUDE_SKILL_DIR}/tools/feishu_auto_collector.py` |
 | 浏览器抓取飞书文档 / 群聊 | `Bash` -> `python3 ${CLAUDE_SKILL_DIR}/tools/feishu_browser.py` |
 | 通过 MCP 读取飞书内容 | `Bash` -> `python3 ${CLAUDE_SKILL_DIR}/tools/feishu_mcp_client.py` |
